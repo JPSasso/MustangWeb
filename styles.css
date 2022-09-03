@@ -1,10 +1,20 @@
 li.navBarItem{
     display: inline;
-    float: left;
+    float: right;    
 }
 
 a{
     display: block;
     padding: 8px;
     background-color: #dddddd;
+}
+
+#bodySection img.headerImage {
+	max-width: 100%;
+    max-height: 100%;
+    /* object-fit:contain; */
+}
+
+#bodySection{
+    background-color: #ffbf85;
 }
