@@ -1,0 +1,44 @@
+/*---------------------Navigation Bar---------------------*/
+#divNavBar{
+    position: relative;
+    height: 150px;
+}
+    #Logo {
+        width: 150px;
+        height: 150px;
+        background: red;
+    }
+    #navBar{
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+    }
+        li.navBarItem{
+            display: inline;
+            float: right;    
+            width: 180px;
+            text-align: center;
+            border-style: solid;
+        }
+            .navBarAnchor{
+                display: block;
+                padding: 8px;
+                background-color: #dddddd;
+                text-decoration: none;
+                color: black;                
+            }
+
+            .navBarAnchor:hover{
+                background-color: #b0b0b0;     
+                font-size: 21px;                           
+            }
+
+/*---------------------Body---------------------*/
+#bodySection{
+    background-color: #ffbf85;
+}
+
+#bodySection img.headerImage {
+	max-width: 100%;
+    max-height: 100%;
+}
