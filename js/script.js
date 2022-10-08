@@ -1,3 +1,3 @@
-function openSocialMedia() {
-    alert("Redes sociales aun no disponibles :D");
+function SubscribeButtonClick() {
+    alert("Te has suscrito!");
   }
