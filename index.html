@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/imgGalery.css">
+    <script src="js/script.js" defer></script>
+    <script src="js/ImagesGaleryScript.js" defer></script>
     <title>El Shelby - Homepage</title>
 </head>
 <body>
@@ -41,11 +43,28 @@
             Lee la historia aqui...
         </p>
         </section>
-        <section class="imageGalery">
-        <p>
-            Galeria de imagenes aqui...
-        </p>
-        </section>
+        <div class="imageGalery">
+            <section id="galeria">
+                <img src="./img/img1.jpg" alt="galeria de imagenes1">
+                <img src="./img/img2.jpg" alt="galeria de imagenes2">
+                <img src="./img/img3.jpg" alt="galeria de imagenes3">
+                <img src="./img/img4.jpg" alt="galeria de imagenes4">
+                <img src="./img/img5.jpg" alt="galeria de imagenes5">
+                <img src="./img/img6.jpg" alt="galeria de imagenes6">
+                <img src="./img/img7.jpg" alt="galeria de imagenes7">
+                <img src="./img/img8.jpg" alt="galeria de imagenes8">
+                <img src="./img/img9.jpg" alt="galeria de imagenes9">
+            </section>
+            
+            <section id="contenedor-principal">
+                <div id="contenedor-interno">
+                    <img id="img-activa" src="/img/img1.jpg" alt="galeria de imagenes activa">
+                    <button id="btn-cierra" type="button">x</button>
+                    <button id="btn-retrocede" type="button">&lt;</button>
+                    <button id="btn-adelanta" type="button">&gt;</button>
+                </div>
+            </section>    
+        </div>
     </div>
     <div id="footerDiv">
         <footer id="footerSection">
