@@ -44,9 +44,11 @@ img.headerImage {
 	max-width: 100%;
     max-height: 100%; 
     position: relative;  
+    height: 350px; 
+    width: 100%;
 }
 
-#rndMustangDiv{
+#rndMustangSec{
     position: relative;
     float: left;
     background-color: lawngreen;
@@ -66,13 +68,12 @@ img.headerImage {
     top: 15px;
 }
 
-
 .imageGalery{
     background-color: yellow;
-    position: relative;   
-    top: 220px; 
-    width: 100%;
+    position: relative;
+    top: 220px;
     height: 300px;
+    width: 100%;
 }
 
 /*---------------------Footer---------------------*/
