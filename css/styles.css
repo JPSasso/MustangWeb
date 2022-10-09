@@ -105,8 +105,11 @@ img.headerImage {
     transition-duration: 0.4s;
     cursor: pointer;
   }
-.subscribeButton:hover {background-color: #7e7e7e;
-color: white;}
+
+.subscribeButton:hover {
+  background-color: #7e7e7e;
+color: white;
+}
 
 #socialMedia{
     background: #ddd;
@@ -200,8 +203,8 @@ color: white;}
 }
 
 #signaturePre{
-    text-align: right;
-    position: relative;  
-    bottom: 90px;  
+    position: relative;
     right: 50px;
+    bottom: 10px;
+    text-align: right;
 }
