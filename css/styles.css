@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-
 /*---------------------Navigation Bar---------------------*/
 #divNavBar{
     background-color: #ff9738;
@@ -78,7 +77,7 @@ img.headerImage {
 
 #footerDiv{
     float:inline-end;
-    background-color: cornflowerblue;
+    background-color: #b3b3b3;
     width: 100%;
     position: relative;
     top: 220px;
@@ -88,6 +87,41 @@ img.headerImage {
 {
     position: relative;
     top: 10px;
+}
+
+#siteMap{
+    text-align: center;
+}
+
+#siteMapTable{
+    border-style: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+#siteMapTable th{
+    width: 250px;
+    text-align: left;
+}
+
+#siteMapTable td{
+    text-align: left;
+    width: 250px;
+}
+
+.tableRowA:link{
+    color: black;
+    text-decoration: none;
+}
+
+.tableRowA:hover {
+    color: #2b84e9;
+    text-decoration: underline;
+}
+
+.tableRowA:visited {
+    color: black;
+    text-decoration: none;
 }
 
 .subscribeButton {
