@@ -1,0 +1,207 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+/*---------------------Navigation Bar---------------------*/
+#divNavBar{
+    background-color: #ff9738;
+    position: relative;
+    height: 150px;
+}
+    #Logo {
+        width: 150px;
+        height: 150px;
+        background: red;
+    }
+    #navBar{
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+    }
+        li.navBarItem{
+            display: inline;
+            float: right;    
+            width: 180px;
+            text-align: center;
+            border-style: solid;
+        }
+            .navBarAnchor{
+                display: block;
+                padding: 8px;
+                background-color: #dddddd;
+                text-decoration: none;
+                color: black;                
+            }
+
+            .navBarAnchor:hover{
+                background-color: #b0b0b0;     
+                font-size: 21px;                           
+            }
+
+/*---------------------Body---------------------*/
+#bodySection{
+    background-color: #ffbf85;
+}
+
+
+img.headerImage {
+	max-width: 100%;
+    max-height: 100%; 
+    position: relative;  
+    height: 350px; 
+    width: 100%;
+}
+
+#rndMustangSec{
+    position: relative;
+    float: left;
+    background-color: lawngreen;
+    width: 40%;
+    height: 200px;
+    left: 10px;
+    top: 15px;
+}
+
+#historyHomePageDiv{
+    position: relative;
+    float: right;
+    background-color: aqua;
+    width: 40%;
+    height: 200px;
+    right: 10px;
+    top: 15px;
+}
+
+/*---------------------Footer---------------------*/
+
+#footerDiv{
+    float:inline-end;
+    background-color: cornflowerblue;
+    width: 100%;
+    position: relative;
+    top: 220px;
+}
+
+#footerSection
+{
+    position: relative;
+    top: 10px;
+}
+
+.subscribeButton {
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    font-weight: bolder;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+.subscribeButton:hover {background-color: #7e7e7e;
+color: white;}
+
+#socialMedia{
+    background: #ddd;
+    padding-top: 30px;
+    text-align: center; 
+}
+
+#socialMedia .icon{
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  display: inline-block;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: #333;
+  text-decoration: none;
+}
+
+#socialMedia .tooltip {
+  position: absolute;
+  top: 0;
+  line-height: 1.5;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+#socialMedia .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+#socialMedia .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+#socialMedia .icon:hover span,
+#socialMedia .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+#socialMedia .facebook:hover,
+#socialMedia .facebook:hover .tooltip,
+#socialMedia .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+#socialMedia .twitter:hover,
+#socialMedia .twitter:hover .tooltip,
+#socialMedia .twitter:hover .tooltip::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+
+#socialMedia .instagram:hover,
+#socialMedia .instagram:hover .tooltip,
+#socialMedia .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+
+#socialMedia .youtube:hover,
+#socialMedia .youtube:hover .tooltip,
+#socialMedia .youtube:hover .tooltip::before {
+  background-color: #de463b;
+  color: #ffffff;
+}
+
+#signaturePre{
+    text-align: right;
+    position: relative;  
+    bottom: 90px;  
+    right: 50px;
+}
