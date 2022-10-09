@@ -87,10 +87,30 @@ img.headerImage {
 {
     position: relative;
     top: 10px;
+    text-align: center;
 }
 
 #siteMap{
     text-align: center;
+    display: none;
+}
+
+#siteMapToggleButton{
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    font-weight: bolder;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 16px;
+    margin: 16px 4px;
+    margin-bottom: 28px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;    
 }
 
 #siteMapTable{

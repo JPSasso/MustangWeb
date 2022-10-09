@@ -26,18 +26,18 @@
     </div>
     <br>
     <div id="bodySection">
-       <br>
-       <img class="headerImage" src="img/wallpaper_4.jpg" title="headerImage" >   
-       <section id="rndMustangSec">
-        <p>
-            Tu Mustang Random es...
-        </p>
-        <div id="rndMustangDiv">
-            
-        </div>
-        <audio id="rndAudio">
-
-        </audio>
+        <br>
+        <img class="headerImage" src="img/wallpaper_4.jpg" title="headerImage" >
+        <section id="rndMustangSec">
+            <p>
+                Tu Mustang Random es...
+            </p>
+            <div id="rndMustangDiv">
+                
+            </div>
+            <audio id="rndAudio">
+                
+            </audio>
         </section>
         <section id="historyHomePageDiv">
         <p> 
@@ -69,7 +69,10 @@
     </div>
     <div id="footerDiv">
         <footer id="footerSection">
-            <div id="siteMap">
+            <button id="siteMapToggleButton" onclick="toggleSiteMapVisibility()">
+                Ver mas  <span>&#8744;</span>
+            </button>
+            <div id="siteMap" style="display: none;">                
                 <table id="siteMapTable">
                     <tr>
                         <th>Vehiculos</th>
@@ -101,7 +104,7 @@
                         <td><a href="https://www.youtube.com/user/ford" class="tableRowA"  target="_blank">YouTube</a></td>
                         <td></td>
                     </tr>
-                </table>            
+                </table>
             </div>
             <div id="socialMedia">
                 <button class="subscribeButton" onclick="SubscribeButtonClick()"> 
