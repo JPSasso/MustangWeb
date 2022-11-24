@@ -14,10 +14,8 @@
     max-width: 80%;
     min-width: 400px;
     padding: 0 10px;
-    padding-bottom: 30px;
     left: 50%;
     top: 100px;
-    bottom: 50px;
     transform: translate(-50%, -50%);
   }
   
@@ -108,4 +106,27 @@
     top: 50%;
     right: 0;
     font-size: 3rem;
+  }
+
+  .container {
+    position: relative;
+  }
+    
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .container:hover .overlay {
+    opacity: 1;
   }
