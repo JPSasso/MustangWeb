@@ -5,7 +5,7 @@ function getRandomMustang()
   while(localStorage.getItem("RandomMustang") === rnd){
     rnd = Math.floor(Math.random() * 6);
   }
-  let cookie = "random=".concat(rnd.toString());
+  let cookie = rnd.toString();
   console.log(cookie);
   localStorage.setItem("RandomMustang",cookie);
   let rndMustang = GetMustang(rnd);
@@ -55,5 +55,6 @@ function SubscribeButtonClick() {
 function gotoHistory()
 {
   console.log(localStorage.getItem("RandomMustang"));
+  localStorage.setItem("manualReload",0);
   window.location.href='history.html';
 }

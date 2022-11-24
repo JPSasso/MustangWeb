@@ -10,7 +10,7 @@ function mappearMustang(src){
   if(src.includes('1965')){
     return Mustang1;
   }
-  else if(src.includes('2 gen')){
+  else if(src.includes('2 gen') || src.includes('2%20gen')){
     return Mustang2;
   }
   else if(src.includes('1990')){
@@ -27,8 +27,6 @@ function mappearMustang(src){
   }
 }
 
-/*Abre el Lightbox*/
-
 const abreLightbox = (event) => {
   imagenActiva.src = event.target.src;
   lightbox.style.display = 'flex';
@@ -40,13 +38,9 @@ imagenes.forEach((imagen) => {
   imagen.addEventListener('click', abreLightbox);
 });
 
-/*Cierra el Lightbox */
-
 btnCierra.addEventListener('click', () => {
   lightbox.style.display = 'none';
 });
-
-/* Adelanta la imagen*/
 
 const adelantaImagen = () => {
   if (indiceImagen === imagenes.length - 1) {
@@ -58,8 +52,6 @@ const adelantaImagen = () => {
 };
 
 btnAdelanta.addEventListener('click', adelantaImagen);
-
-/*Retrocede la Imagen*/
 
 const retrocederImagen = () => {
   if (indiceImagen === 0) {
@@ -76,4 +68,17 @@ function getMustangData() {
   let mappedMustang = mappearMustang(imagenActiva.src);
   document.getElementById("h-Generacion").innerHTML = mappedMustang.Generation;
   document.getElementById("p-Historia").innerHTML = mappedMustang.history;
+}
+
+
+function loadHistoryPage(){  
+  if(localStorage.getItem("manualReload") == 0){   
+    let mappedMustang = GetMustang(Number(localStorage.getItem("RandomMustang")));
+    document.getElementById("h-Generacion").innerHTML = mappedMustang.Generation;
+    document.getElementById("p-Historia").innerHTML = mappedMustang.history;
+    document.getElementById("img-activa").src = mappedMustang.Img1;
+    lightbox.style.display = 'flex';
+    localStorage.setItem("manualReload",1);
+  }
+  console.log(localStorage.getItem('RandomMustang'));
 }
