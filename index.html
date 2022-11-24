@@ -8,16 +8,16 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
     <link rel="stylesheet" href="css/imgGalery.css">
     <script src="js/script.js" defer></script>
-    <script src="js/ImagesGaleryScript.js" defer></script>
-    <title>El Shelby - Homepage</title>
+    <script src="js/ImagesGaleryScript.js" defer></script>    
+    <title>El Shelby - Homepage</title>    
 </head>
-<body>
+<body onload="getRandomMustang()">
     <div id="divNavBar">
-        <img id="Logo" >
+        <button type="button" onclick="window.location.href='index.html';">
+             <img id="Logo" src="img/logo.png" >
+            </button>
         <nav id="navBar" >
             <ul>
-                <li class="navBarItem"><a class="navBarAnchor" href="buyit.html">Compra tu Mustang</a></li>
-                <li class="navBarItem"><a class="navBarAnchor" href="merchandising.html">Merchandising</a></li>
                 <li class="navBarItem"><a class="navBarAnchor" href="fact sheet.html">Ficha Tecnica</a></li>
                 <li class="navBarItem"><a class="navBarAnchor" href="history.html">Historia</a></li>
                 <li class="navBarItem"><a class="navBarAnchor" href="index.html">Inicio</a></li>
@@ -28,22 +28,27 @@
     <div id="bodySection">
         <br>
         <img class="headerImage" src="img/wallpaper_4.jpg" title="headerImage" >
-        <section id="rndMustangSec">
-            <p>
-                Tu Mustang Random es...
-            </p>
-            <div id="rndMustangDiv">
-                
+        <div id="randomDiv">
+            <section id="rndMustangSec">
+                <p>
+                    Tu Mustang Random es...
+                </p>
+                <button type="button" id="RndButton">
+                    <img id="historyImg" src="img/wallpaper_1 small.jpg" alt="historia">
+                </button>                
+                <audio id="rndMustangSound">
+
+                </audio>
+            </section>
+            
+            <div class="historyHomePageDiv">
+                <p>Lee la historia de tu Mustang aqui</p>
+                <button type="button" id="historyButton"
+                onclick="gotoHistory()">
+                    <img id="historyImg" src="img/wallpaper_1 small.jpg" alt="historia">
+                </button>
             </div>
-            <audio id="rndAudio">
-                
-            </audio>
-        </section>
-        <section id="historyHomePageDiv">
-        <p> 
-            Lee la historia aqui...
-        </p>
-        </section>
+        </div>
         <div class="imageGalery">
             <section id="galeria">
                 <img src="./img/img1.jpg" alt="galeria de imagenes1">
