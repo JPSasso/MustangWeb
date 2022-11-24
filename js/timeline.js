@@ -6,12 +6,34 @@ const lightbox = document.querySelector('#contenedor-principal');
 const imagenActiva = document.querySelector('#img-activa');
 let indiceImagen = 0;
 
+function mappearMustang(src){
+  if(src.includes('1965')){
+    return Mustang1;
+  }
+  else if(src.includes('2 gen')){
+    return Mustang2;
+  }
+  else if(src.includes('1990')){
+    return Mustang3;
+  }
+  else if(src.includes('2003')){
+    return Mustang4;
+  }
+  else if(src.includes('2005')){
+    return Mustang5;
+  }
+  else {
+    return Mustang6;
+  }
+}
+
 /*Abre el Lightbox*/
 
 const abreLightbox = (event) => {
   imagenActiva.src = event.target.src;
   lightbox.style.display = 'flex';
   indiceImagen = Array.from(imagenes).indexOf(event.target);
+  getMustangData();
 };
 
 imagenes.forEach((imagen) => {
@@ -32,6 +54,7 @@ const adelantaImagen = () => {
   }
   imagenActiva.src = imagenes[indiceImagen + 1].src;
   indiceImagen++;
+  getMustangData();
 };
 
 btnAdelanta.addEventListener('click', adelantaImagen);
@@ -44,6 +67,13 @@ const retrocederImagen = () => {
   }
   imagenActiva.src = imagenes[indiceImagen - 1].src;
   indiceImagen--;
+  getMustangData();
 };
 
 btnRetrocede.addEventListener('click', retrocederImagen);
+
+function getMustangData() {
+  let mappedMustang = mappearMustang(imagenActiva.src);
+  document.getElementById("h-Generacion").innerHTML = mappedMustang.Generation;
+  document.getElementById("p-Historia").innerHTML = mappedMustang.history;
+}

@@ -6,91 +6,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
-    <link rel="stylesheet" href="css/imgGalery.css">
+    <link rel="stylesheet" href="css/timeline.css">
     <script src="js/script.js" defer></script>
-    <script src="js/ImagesGaleryScript.js" defer></script>
-    <title>El Shelby - Homepage</title>
-</head>
-<body>
-    <div id="divNavBar">
-        <img id="Logo" src="img/logo.png" >
-        <nav id="navBar" >
-            <ul>
-                <li class="navBarItem"><a class="navBarAnchor" href="fact sheet.html">Ficha Tecnica</a></li>
-                <li class="navBarItem"><a class="navBarAnchor" href="history.html">Historia</a></li>
-                <li class="navBarItem"><a class="navBarAnchor" href="index.html">Inicio</a></li>
-            </ul>
-        </nav>
-    </div>
-    <br>
-    <div id="bodySection">
-       <br>
-       <img class="headerImage" src="img/wallpaper_4.jpg" title="headerImage" >   
-       <section id="rndMustangSec">
-        <p>
-            Tu Mustang Random es...
-        </p>
-        <div id="rndMustangDiv">
-            
-        </div>
-        <audio>
+    <script src="js/timeline.js" defer></script>
+    <script src="js/mustangsData.js" defer></script>
 
-        </audio>
-        </section>
-        <section id="historyHomePageDiv">
-        <p> 
-            Lee la historia aqui...
-        </p>
-        </section>
-        <div class="imageGalery">
-            <section id="galeria">
-                <img src="./img/img1.jpg" alt="galeria de imagenes1">
-                <img src="./img/img2.jpg" alt="galeria de imagenes2">
-                <img src="./img/img3.jpg" alt="galeria de imagenes3">
-                <img src="./img/img4.jpg" alt="galeria de imagenes4">
-                <img src="./img/img5.jpg" alt="galeria de imagenes5">
-                <img src="./img/img6.jpg" alt="galeria de imagenes6">
-                <img src="./img/img7.jpg" alt="galeria de imagenes7">
-                <img src="./img/img8.jpg" alt="galeria de imagenes8">
-                <img src="./img/img9.jpg" alt="galeria de imagenes9">
-            </section>
-            
-            <section id="contenedor-principal">
-                <div id="contenedor-interno">
-                    <img id="img-activa" src="/img/img1.jpg" alt="galeria de imagenes activa">
-                    <button id="btn-cierra" type="button">x</button>
-                    <button id="btn-retrocede" type="button">&lt;</button>
-                    <button id="btn-adelanta" type="button">&gt;</button>
-                </div>
-            </section>    
+    <title>El Shelby - Historia</title>
+</head>
+<body onload="console.log(localStorage.getItem('RandomMustang'));">
+    <body>
+        <div id="divNavBar">
+            <button type="button" onclick="window.location.href='index.html';">
+                 <img id="Logo" src="img/logo.png" >
+                </button>
+            <nav id="navBar" >
+                <ul>
+                    <li class="navBarItem"><a class="navBarAnchor" href="fact sheet.html">Ficha Tecnica</a></li>
+                    <li class="navBarItem"><a class="navBarAnchor" href="history.html">Historia</a></li>
+                    <li class="navBarItem"><a class="navBarAnchor" href="index.html">Inicio</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
-    <div id="footerDiv">
-        <footer id="footerSection">
-            <div id="siteMap" style="background-color: #ff9738;">
-                <p> 
-                    aqui va el mapa del sitio
-                </p>
+        <br>
+        <div id="bodySection">
+            <br>
+            <img class="headerImage" src="img/wallpaper_4.jpg" title="headerImage" >
+                                        
+            <div class="imageGalery">
+                <section id="galeria">
+                    <img src="./img/1965.jpg" alt="galeria de imagenes1">
+                    <img src="./img/2 gen.jpg" alt="galeria de imagenes2">
+                    <img src="./img/1990.jpg" alt="galeria de imagenes3">
+                    <img src="./img/2003.jpg" alt="galeria de imagenes4">
+                    <img src="./img/2005.jpg" alt="galeria de imagenes5">
+                    <img src="./img/2019.jpg" alt="galeria de imagenes6">
+                </section>
+                
+                <section id="contenedor-principal">
+                    <div id="contenedor-interno">                        
+                        <div id="div-img-activa">
+                            <img id="img-activa" src="/img/img1.jpg" alt="galeria de imagenes activa">
+                            <h1 id="h-Generacion">Generacion</h1>
+                            <p id="p-Historia">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam consequuntur veniam natus impedit accusamus voluptatibus inventore fugit omnis quia officiis quo pariatur nostrum dolor tempore qui voluptates eius, delectus ullam?</p>
+                        </div>
+                        <button id="btn-cierra" type="button">x</button>
+                        <button id="btn-retrocede" type="button">&lt;</button>
+                        <button id="btn-adelanta" type="button">&gt;</button>
+                    </div>
+                </section>    
             </div>
-            <div id="socialMedia">
-                <a href="https://www.facebook.com/ford" class="icon facebook" target="_blank">
-                    <div class="tooltip">Facebook</div>
-                    <span><i class="fab fa-facebook-f"></i></span>
-                  </a>
-                  <a href="https://twitter.com/ford" class="icon twitter" target="_blank">
-                    <div class="tooltip">Twitter</div>
-                    <span><i class="fab fa-twitter"></i></span>
-                  </a>
-                  <a href="https://www.instagram.com/ford/" class="icon instagram" target="_blank">
-                    <div class="tooltip">Instagram</div>
-                    <span><i class="fab fa-instagram"></i></span>
-                  </a>
-                  <a href="https://www.youtube.com/user/ford" class="icon youtube" target="_blank">
-                    <div class="tooltip">Youtube</div>
-                    <span><i class="fab fa-youtube"></i></span>
-                  </a>
-            </div>
-        </footer>
-    </div>
-</body>
+        </div>
+        <div id="footerDiv">
+            <footer id="footerSection">
+                <button id="siteMapToggleButton" onclick="toggleSiteMapVisibility()">
+                    Ver mas  <span>&#8744;</span>
+                </button>
+                <div id="siteMap" style="display: none;">                
+                    <table id="siteMapTable">
+                        <tr>
+                            <th>Vehiculos</th>
+                            <th>Otros sitios</th>
+                            <th>Redes sociales</th>
+                            <th>Soporte</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a href="https://www.ford.com/mustang/" class="tableRowA" target="_blank">Ford Mustang Official</a></td>
+                            <td><a href="https://www.facebook.com/ford" class="tableRowA" target="_blank">Facebook</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a href="https://revologycars.com/" class="tableRowA" target="_blank">Revology Official</a></td>
+                            <td><a href="https://twitter.com/ford" class="tableRowA" target="_blank">Twitter</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a href="https://revologycars.com/" class="tableRowA" target="_blank">Revology Official</a></td>
+                            <td><a href="https://www.instagram.com/ford/" class="tableRowA" target="_blank">Instagram</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a href="https://revologycars.com/" class="tableRowA" target="_blank">Revology Official</a></td>
+                            <td><a href="https://www.youtube.com/user/ford" class="tableRowA"  target="_blank">YouTube</a></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="socialMedia">
+                    <button class="subscribeButton" onclick="SubscribeButtonClick()"> 
+                        Suscribete
+                    </button>
+                    <a href="https://www.facebook.com/ford" class="icon facebook" target="_blank">
+                        <div class="tooltip">Facebook</div>
+                        <span><i class="fab fa-facebook-f"></i></span>
+                      </a>
+                      <a href="https://twitter.com/ford" class="icon twitter" target="_blank">
+                        <div class="tooltip">Twitter</div>
+                        <span><i class="fab fa-twitter"></i></span>
+                      </a>
+                      <a href="https://www.instagram.com/ford/" class="icon instagram" target="_blank">
+                        <div class="tooltip">Instagram</div>
+                        <span><i class="fab fa-instagram"></i></span>
+                      </a>
+                      <a href="https://www.youtube.com/user/ford" class="icon youtube" target="_blank">
+                        <div class="tooltip">Youtube</div>
+                        <span><i class="fab fa-youtube"></i></span>
+                      </a>
+                      <pre id="signaturePre">                    
+                        Sasso Juan Pablo
+                        Buenos Aires, Argentina
+                        2022
+                      </pre>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>

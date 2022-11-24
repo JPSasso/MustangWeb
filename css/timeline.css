@@ -1,7 +1,6 @@
 /*Galeria de Imagenes*/
 .imageGalery{
   position: relative;
-  top: 290px;
   width: 100%;
   max-height: 250px;
 }
@@ -10,12 +9,15 @@
     position: relative;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-gap: 2px;
-    max-width: 700px;
+    max-width: 80%;
     min-width: 400px;
     padding: 0 10px;
+    padding-bottom: 30px;
     left: 50%;
+    top: 100px;
+    bottom: 50px;
     transform: translate(-50%, -50%);
   }
   
@@ -25,12 +27,31 @@
     border-radius: 5px;
     cursor: pointer;
   }
-  
-  #img-activa {
+  #div-img-activa {
     width: 100%;
     height: auto;
+    background-color: aliceblue;
+  }
+
+  #img-activa {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    padding-top: 50px ;
+    padding-left: 50px;
+  }
+
+  #h-Generacion{
+    display: inline-block;
+    position: relative ;
+    bottom: 100px;
+    padding-left: 50px;
   }
   
+  #p-Historia{
+    padding: 50px;
+  }
+
   /*Contenedor Principal del Lightbox*/
   
   #contenedor-principal {
@@ -52,7 +73,7 @@
     border: 2px #f3f3f3 solid;
     padding: 2px;
     background: #3f3f3f;
-    max-width: 1000px;
+    max-width: 1200px;
     min-height: 700px;
     position: relative;
     display: flex;

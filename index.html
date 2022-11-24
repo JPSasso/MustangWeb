@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="css/imgGalery.css">
     <script src="js/script.js" defer></script>
     <script src="js/ImagesGaleryScript.js" defer></script>    
+    <script src="js/mustangsData.js" defer></script>
     <title>El Shelby - Homepage</title>    
 </head>
-<body onload="getRandomMustang()">
+<body>
     <div id="divNavBar">
         <button type="button" onclick="window.location.href='index.html';">
              <img id="Logo" src="img/logo.png" >
@@ -30,12 +31,12 @@
         <img class="headerImage" src="img/wallpaper_4.jpg" title="headerImage" >
         <div id="randomDiv">
             <section id="rndMustangSec">
-                <p>
+                <button class="RndButton" onclick="getRandomMustang()">
                     Tu Mustang Random es...
-                </p>
-                <button type="button" id="RndButton">
-                    <img id="historyImg" src="img/wallpaper_1 small.jpg" alt="historia">
-                </button>                
+                </button>
+                <br>
+                <br>                
+                    <img id="historyImg">                             
                 <audio id="rndMustangSound">
 
                 </audio>
