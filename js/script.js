@@ -1,13 +1,20 @@
 
 function getRandomMustang()
-{
-  let rnd = Math.floor(Math.random() * 6);
+{    
+  var rnd = Math.floor(Math.random() * 6);
+  while(localStorage.getItem("RandomMustang") === rnd){
+    rnd = Math.floor(Math.random() * 6);
+  }
   let cookie = "random=".concat(rnd.toString());
   console.log(cookie);
   localStorage.setItem("RandomMustang",cookie);
   let rndMustang = GetMustang(rnd);
   console.log(rndMustang);
   document.getElementById("historyImg").src = rndMustang.Img1;
+  var audio = document.getElementById("rndMustangSound");
+  audio.src = rndMustang.sound;
+  audio.load();
+  document.getElementById("p-model").innerHTML = "Mustang modelo " + rndMustang.Year;
 }
 
 function GetMustang(car)

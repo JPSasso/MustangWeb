@@ -76,7 +76,7 @@ img.headerImage {
     display: inline-block;
     width: 40%;
     height: 250px;
-    text-align: center;
+    text-align: center;    
 }
 
 .historyHomePageDiv{
@@ -92,6 +92,11 @@ img.headerImage {
 
 #historyButton{
     height: 100%;    
+}
+
+#rndMustangSound{
+    position: relative; 
+    left: 10%;
 }
 
 /*---------------------Footer---------------------*/
