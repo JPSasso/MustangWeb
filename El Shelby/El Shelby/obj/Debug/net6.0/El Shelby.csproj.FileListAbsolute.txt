@@ -1,0 +1,31 @@
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\bin\Debug\net6.0\appsettings.Development.json
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\bin\Debug\net6.0\appsettings.json
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\bin\Debug\net6.0\El Shelby.staticwebassets.runtime.json
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\bin\Debug\net6.0\El Shelby.exe
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\bin\Debug\net6.0\El Shelby.deps.json
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\bin\Debug\net6.0\El Shelby.runtimeconfig.json
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\bin\Debug\net6.0\El Shelby.dll
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\bin\Debug\net6.0\El Shelby.pdb
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\El Shelby.csproj.AssemblyReference.cache
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\El Shelby.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\El Shelby.AssemblyInfoInputs.cache
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\El Shelby.AssemblyInfo.cs
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\El Shelby.csproj.CoreCompileInputs.cache
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\El Shelby.MvcApplicationPartsAssemblyInfo.cache
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\El Shelby.RazorAssemblyInfo.cache
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\El Shelby.RazorAssemblyInfo.cs
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\staticwebassets.build.json
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\staticwebassets.development.json
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\scopedcss\bundle\El Shelby.styles.css
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\scopedcss\projectbundle\El Shelby.bundle.scp.css
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\El Shelby.dll
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\ref\El Shelby.dll
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\El Shelby.pdb
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\El Shelby.genruntimeconfig.cache
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\staticwebassets\msbuild.El Shelby.Microsoft.AspNetCore.StaticWebAssets.props
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\staticwebassets\msbuild.build.El Shelby.props
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.El Shelby.props
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.El Shelby.props
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\staticwebassets.pack.json
+G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\El Shelby\El Shelby\obj\Debug\net6.0\refint\El Shelby.dll

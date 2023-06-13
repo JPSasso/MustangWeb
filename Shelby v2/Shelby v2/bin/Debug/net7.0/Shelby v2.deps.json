@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Shelby v2/1.0.0": {
+        "runtime": {
+          "Shelby v2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Shelby v2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

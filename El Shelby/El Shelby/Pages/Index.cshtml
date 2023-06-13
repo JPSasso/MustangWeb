@@ -1,0 +1,60 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<main class="container mt-4">
+
+    <div class="row">
+        <div class="col-lg-12 mh-25">
+            <img class="headerImage w-100" style="height: 300px" src="img/wallpaper_4.jpg" title="headerImage">
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <h5 class="text-start col">Tu Mustang Random es...</h5>
+        <h5 class="text-start col">Lee la historia de tu Mustang aqui</h5>
+    </div>
+    <div class="row">
+        <div class="col">
+            <br />
+            <p id="p-model">
+                modelo
+            </p>
+            <img id="historyImg" class="h-75">
+            <p id="p-engine">Escucha el motor</p>
+            <audio id="rndMustangSound" controls preload="auto" class="w-50"></audio>
+        </div>
+        <button type="button" class="col" id="historyButton"
+                onclick="gotoHistory()">
+            <img id="historyImg" src="img/wallpaper_1 small.jpg" class="w-50" alt="historia">
+        </button>
+    </div>
+    @*Modelo viejo----------------------------------*@
+  @*  <div class="text-center mt-4">
+        <div class="text-center mt-4">
+            <section id="galeria">
+                <img src="./img/img1.jpg" alt="galeria de imagenes1">
+                <img src="./img/img2.jpg" alt="galeria de imagenes2">
+                <img src="./img/img3.jpg" alt="galeria de imagenes3">
+                <img src="./img/img4.jpg" alt="galeria de imagenes4">
+                <img src="./img/img5.jpg" alt="galeria de imagenes5">
+                <img src="./img/img6.jpg" alt="galeria de imagenes6">
+                <img src="./img/img7.jpg" alt="galeria de imagenes7">
+                <img src="./img/img8.jpg" alt="galeria de imagenes8">
+                <img src="./img/img9.jpg" alt="galeria de imagenes9">
+            </section>
+
+            <section id="contenedor-principal" class="text-center mt-4">
+                <div id="contenedor-interno">
+                    <img id="img-activa" src="/img/img1.jpg" alt="galeria de imagenes activa">
+                    <button id="btn-cierra" type="button">x</button>
+                    <button id="btn-retrocede" type="button">&lt;</button>
+                    <button id="btn-adelanta" type="button">&gt;</button>
+                </div>
+            </section>
+        </div>
+    </div>*@
+
+
+</main>
