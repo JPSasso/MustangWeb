@@ -16,12 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = G:\Mi unidad\UAI\Licenciatura\3ro\Prog Web Avanzada\MustangWeb\Shelby v2\Shelby v2
 build_property._RazorSourceGeneratorDebug = 
 
+[G:/Mi unidad/UAI/Licenciatura/3ro/Prog Web Avanzada/MustangWeb/Shelby v2/Shelby v2/Views/Home/History.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIaXN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/Mi unidad/UAI/Licenciatura/3ro/Prog Web Avanzada/MustangWeb/Shelby v2/Shelby v2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [G:/Mi unidad/UAI/Licenciatura/3ro/Prog Web Avanzada/MustangWeb/Shelby v2/Shelby v2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Mi unidad/UAI/Licenciatura/3ro/Prog Web Avanzada/MustangWeb/Shelby v2/Shelby v2/Views/Mustang/History.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGFuZ1xIaXN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Mi unidad/UAI/Licenciatura/3ro/Prog Web Avanzada/MustangWeb/Shelby v2/Shelby v2/Views/Mustang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGFuZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [G:/Mi unidad/UAI/Licenciatura/3ro/Prog Web Avanzada/MustangWeb/Shelby v2/Shelby v2/Views/Shared/Error.cshtml]

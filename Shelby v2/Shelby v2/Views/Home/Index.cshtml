@@ -1,7 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-@model Mustang
+@model Shelby_v2.Models.Mustang
 
 <div class="container">
     <div class="jumbotron p-3 p-md-5 text-white rounded">
@@ -13,16 +13,22 @@
         <div class="col-md-5">
             <div class="align-content-center flex-md-row mb-4 box-shadow" style="max-height: 400px">
                 <div class="d-flex flex-column align-items-center">
-                    <button type="button" class="btn btn-light" asp-action="Index" asp-controller="Randomizer">
+                    <a class="btn btn-light" asp-action="Index" asp-controller="Mustang">
                         <strong id="p-model">
-                            Modelo
+                            Toca para obtener tu mustang aleatorio
                         </strong>
-                    </button>
-                    <img id="historyImg" src="@if(Model!=null) @Model.Img1" style="max-height: 250px; visibility: hidden" class="h-75 img-thumbnail flex-auto">
+                    </a>
+                    <img id="historyImg" src="@if(Model!=null)
+                    @Model.Img1
+
+
+" style="max-height: 250px; visibility: hidden" class="h-75 img-thumbnail flex-auto">
                     <br />
                     <p id="p-engine">Escucha el motor</p>
                     <audio id="rndMustangSound" src="@if(Model!=null)
                     @Model.EngineSound
+
+
 " controls preload="auto" class="w-50"></audio>
                 </div>
             </div>
@@ -31,7 +37,12 @@
         <div class="col-md-5">
             <div class="flex-md-row align-items-center d-flex" style="max-height: 400px">
                 <div class="align-items-center">
-                    <img class="flex-auto img-thumbnail" style="max-height: 400px" src="/img/wallpaper_1 small.jpg" >
+                    <a href="../Views/Home/History.cshtml">
+                        <strong>
+                            Lee la historia aqui
+                        </strong>
+                    </a>
+                    <img class="flex-auto img-thumbnail" style="max-height: 400px" src="/img/wallpaper_1 small.jpg">
                 </div>
             </div>
         </div>

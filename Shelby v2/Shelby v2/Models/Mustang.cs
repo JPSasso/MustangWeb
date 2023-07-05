@@ -21,7 +21,7 @@ public partial class Mustang
 
     public string? History { get; set; }
 
-    public virtual Generation? _generation { get; set; }
+    public virtual Generation _generation { get; set; }
 
-    public virtual TechnicalDatasheet? _technicalDatasheet { get; set; }
+    public virtual TechnicalDatasheet _technicalDatasheet { get; set; }
 }
