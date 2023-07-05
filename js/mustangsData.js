@@ -94,7 +94,7 @@ const Mustang1 = {
   }
   
   const Mustang6 = {
-    Generation: "Sexta generación (2014-presente))",
+    Generation: "Sexta generación (2014-presente)",
     Year: 2015,
     Img1: "img/2015.jpg",
     Img2: "img/2019.jpg",
