@@ -1,10 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using Shelby_v2.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-var app = builder.Build();
+builder.Services.AddDbContext<ShelbyContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("ConexionSQL")));
 
+var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

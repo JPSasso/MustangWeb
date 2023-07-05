@@ -1,6 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@model Mustang
 
 <div class="container">
     <div class="jumbotron p-3 p-md-5 text-white rounded">
@@ -12,13 +13,17 @@
         <div class="col-md-5">
             <div class="align-content-center flex-md-row mb-4 box-shadow" style="max-height: 400px">
                 <div class="d-flex flex-column align-items-center">
-                    <strong id="p-model">
-                        Modelo
-                    </strong>
-                    <img id="historyImg" src="~/img/1964.jpg" style="max-height: 250px" class="h-75 img-thumbnail flex-auto">
+                    <button type="button" class="btn btn-light" asp-action="Index" asp-controller="Randomizer">
+                        <strong id="p-model">
+                            Modelo
+                        </strong>
+                    </button>
+                    <img id="historyImg" src="@if(Model!=null) @Model.Img1" style="max-height: 250px; visibility: hidden" class="h-75 img-thumbnail flex-auto">
                     <br />
                     <p id="p-engine">Escucha el motor</p>
-                    <audio id="rndMustangSound" controls preload="auto" class="w-50"></audio>
+                    <audio id="rndMustangSound" src="@if(Model!=null)
+                    @Model.EngineSound
+" controls preload="auto" class="w-50"></audio>
                 </div>
             </div>
         </div>
@@ -26,7 +31,7 @@
         <div class="col-md-5">
             <div class="flex-md-row align-items-center d-flex" style="max-height: 400px">
                 <div class="align-items-center">
-                    <img class="flex-auto img-thumbnail" style="max-height: 400px" src="/img/wallpaper_1 small.jpg">
+                    <img class="flex-auto img-thumbnail" style="max-height: 400px" src="/img/wallpaper_1 small.jpg" >
                 </div>
             </div>
         </div>
