@@ -5,6 +5,58 @@
       "PackagePath": "staticwebassets\\Shelby v2.bundle.scp.css"
     },
     {
+      "Id": "G:\\Mi unidad\\UAI\\Licenciatura\\3ro\\Prog Web Avanzada\\MustangWeb\\Shelby v2\\Shelby v2\\wwwroot\\audio\\1965.mp3",
+      "PackagePath": "staticwebassets\\audio\\1965.mp3"
+    },
+    {
+      "Id": "G:\\Mi unidad\\UAI\\Licenciatura\\3ro\\Prog Web Avanzada\\MustangWeb\\Shelby v2\\Shelby v2\\wwwroot\\audio\\1965.ogg",
+      "PackagePath": "staticwebassets\\audio\\1965.ogg"
+    },
+    {
+      "Id": "G:\\Mi unidad\\UAI\\Licenciatura\\3ro\\Prog Web Avanzada\\MustangWeb\\Shelby v2\\Shelby v2\\wwwroot\\audio\\1973.mp3",
+      "PackagePath": "staticwebassets\\audio\\1973.mp3"
+    },
+    {
+      "Id": "G:\\Mi unidad\\UAI\\Licenciatura\\3ro\\Prog Web Avanzada\\MustangWeb\\Shelby v2\\Shelby v2\\wwwroot\\audio\\1973.ogg",
+      "PackagePath": "staticwebassets\\audio\\1973.ogg"
+    },
+    {
+      "Id": "G:\\Mi unidad\\UAI\\Licenciatura\\3ro\\Prog Web Avanzada\\MustangWeb\\Shelby v2\\Shelby v2\\wwwroot\\audio\\1990.mp3",
+      "PackagePath": "staticwebassets\\audio\\1990.mp3"
+    },
+    {
+      "Id": "G:\\Mi unidad\\UAI\\Licenciatura\\3ro\\Prog Web Avanzada\\MustangWeb\\Shelby v2\\Shelby v2\\wwwroot\\audio\\1990.ogg",
+      "PackagePath": "staticwebassets\\audio\\1990.ogg"
+    },
+    {
+      "Id": "G:\\Mi unidad\\UAI\\Licenciatura\\3ro\\Prog Web Avanzada\\MustangWeb\\Shelby v2\\Shelby v2\\wwwroot\\audio\\1995.mp3",
+      "PackagePath": "staticwebassets\\audio\\1995.mp3"
+    },
+    {
+      "Id": "G:\\Mi unidad\\UAI\\Licenciatura\\3ro\\Prog Web Avanzada\\MustangWeb\\Shelby v2\\Shelby v2\\wwwroot\\audio\\1995.ogg",
+      "PackagePath": "staticwebassets\\audio\\1995.ogg"
+    },
+    {
+      "Id": "G:\\Mi unidad\\UAI\\Licenciatura\\3ro\\Prog Web Avanzada\\MustangWeb\\Shelby v2\\Shelby v2\\wwwroot\\audio\\2005.mp3",
+      "PackagePath": "staticwebassets\\audio\\2005.mp3"
+    },
+    {
+      "Id": "G:\\Mi unidad\\UAI\\Licenciatura\\3ro\\Prog Web Avanzada\\MustangWeb\\Shelby v2\\Shelby v2\\wwwroot\\audio\\2005.ogg",
+      "PackagePath": "staticwebassets\\audio\\2005.ogg"
+    },
+    {
+      "Id": "G:\\Mi unidad\\UAI\\Licenciatura\\3ro\\Prog Web Avanzada\\MustangWeb\\Shelby v2\\Shelby v2\\wwwroot\\audio\\2015.mp3",
+      "PackagePath": "staticwebassets\\audio\\2015.mp3"
+    },
+    {
+      "Id": "G:\\Mi unidad\\UAI\\Licenciatura\\3ro\\Prog Web Avanzada\\MustangWeb\\Shelby v2\\Shelby v2\\wwwroot\\audio\\2015.ogg",
+      "PackagePath": "staticwebassets\\audio\\2015.ogg"
+    },
+    {
+      "Id": "G:\\Mi unidad\\UAI\\Licenciatura\\3ro\\Prog Web Avanzada\\MustangWeb\\Shelby v2\\Shelby v2\\wwwroot\\audio\\desktop.ini",
+      "PackagePath": "staticwebassets\\audio\\desktop.ini"
+    },
+    {
       "Id": "G:\\Mi unidad\\UAI\\Licenciatura\\3ro\\Prog Web Avanzada\\MustangWeb\\Shelby v2\\Shelby v2\\wwwroot\\css\\desktop.ini",
       "PackagePath": "staticwebassets\\css\\desktop.ini"
     },

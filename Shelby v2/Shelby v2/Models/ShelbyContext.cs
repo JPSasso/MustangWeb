@@ -33,7 +33,7 @@ public partial class ShelbyContext : DbContext
             entity.ToTable("Generation");
 
             entity.Property(e => e.GenId).ValueGeneratedNever();
-            entity.Property(e => e.GenerationName)
+            entity.Property(e => e.Generation1)
                 .HasMaxLength(100)
                 .IsUnicode(false)
                 .HasColumnName("Generation");
@@ -59,14 +59,14 @@ public partial class ShelbyContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("img2");
-            entity.Property(e => e._generation).HasColumnName("technicalDatasheet");
+            entity.Property(e => e.TechnicalDatasheet).HasColumnName("technicalDatasheet");
 
             entity.HasOne(d => d._generation).WithMany(p => p.Mustangs)
-                .HasForeignKey(d => d._generation)
+                .HasForeignKey(d => d.Generation)
                 .HasConstraintName("FK_Mustang_Generation");
 
             entity.HasOne(d => d._technicalDatasheet).WithMany(p => p.Mustangs)
-                .HasForeignKey(d => d._technicalDatasheet)
+                .HasForeignKey(d => d.TechnicalDatasheet)
                 .HasConstraintName("FK_Mustang_TechnicalDatasheet");
         });
 
